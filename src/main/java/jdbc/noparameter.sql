@@ -1,0 +1,4 @@
+CREATE  PROCEDURE SP_select_caller1() 
+BEGIN
+	SELECT * FROM dev;
+END;
