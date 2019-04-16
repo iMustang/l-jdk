@@ -12,7 +12,8 @@ import java.util.regex.Pattern;
  */
 public class App1 {
     public static void main(String[] args) {
-        String testStr = "This is my small example string which I'm going to use for pattern matching";
+        String testStr = "This is my small example string which I'm going " +
+                "to use for pattern matching";
 
         Pattern pattern = Pattern.compile("\\w+");
 

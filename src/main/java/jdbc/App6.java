@@ -7,22 +7,21 @@ import java.sql.SQLException;
 
 /**
  * 调用无参数存储过程，对应脚本noparameter.sql
- * 
- * @author xMustang
  *
+ * @author xMustang
  */
 public class App6 {
-	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-		Connection conn = DbUtil.getConnection();
-		String sql = "call SP_select_caller1() ";
-		CallableStatement cst = conn.prepareCall(sql);
-		ResultSet rs = cst.executeQuery();
+    public static void main(String[] args) throws SQLException {
+        Connection conn = DbUtil.getConnection();
+        String sql = "call SP_select_caller1() ";
+        CallableStatement cst = conn.prepareCall(sql);
+        ResultSet rs = cst.executeQuery();
 
-		while (rs.next()) {
-			System.out.println(rs.getString("id"));
-		}
+        while (rs.next()) {
+            System.out.println(rs.getString("id"));
+        }
 
-		cst.close();
-		conn.close();
-	}
+        cst.close();
+        conn.close();
+    }
 }
