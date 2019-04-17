@@ -6,14 +6,13 @@
 
     <groupId>com.xmustang</groupId>
     <artifactId>l-jdk</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-RELEASE</version>
     <dependencies>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.15</version>
         </dependency>
-
     </dependencies>
     <build>
         <resources>
@@ -36,5 +35,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

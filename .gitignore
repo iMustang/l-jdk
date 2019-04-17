@@ -2,8 +2,8 @@
 *.DS_Store
 .classpath
 .project
-.idea
+.idea/
 .settings
 *.iml
 /out
-/target
+/target/

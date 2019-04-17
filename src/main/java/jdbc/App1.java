@@ -14,7 +14,7 @@ public class App1 {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         String URL = "jdbc:mysql://127.0.0.1:3306/test?serverTimezone=GMT";
         String USER = "root";
-        String PASSWORD = "123456";
+        String PASSWORD = "root";
         // 1.加载驱动程序
         Class.forName("com.mysql.cj.jdbc.Driver");
         // 2.获得数据库链接
