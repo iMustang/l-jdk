@@ -25,6 +25,7 @@ public class App1 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        // Main线程中的ThreadLocal
         System.out.println(bank.get());
     }
 }
