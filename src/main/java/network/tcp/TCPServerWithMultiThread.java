@@ -12,54 +12,54 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 不断接收客户端的连接请求，并使用线程池处理这些请求
- * 
- * @author xMustang
- *
+ * @Title: TCPServerWithMultiThread
+ * @Description: TCP Socket示例——多线程版
+ * @Author: xMustang
+ * @Version: 1.0
+ * @create: 2019/4/17 10:02
  */
 public class TCPServerWithMultiThread {
-
-	public static void main(String[] args) throws Exception {
-		ExecutorService executor = Executors.newCachedThreadPool();
-		@SuppressWarnings("resource")
-		ServerSocket serverSocket = new ServerSocket(8090);
-		System.out.println("TCP server has been ready.");
-		while (true) {
-			Socket socket = serverSocket.accept();
-			Runnable handler = new TimeHandler(socket);
-			executor.submit(handler);
+    public static void main(String[] args) throws Exception {
+        ExecutorService executor = Executors.newCachedThreadPool();
+        @SuppressWarnings("resource")
+        ServerSocket serverSocket = new ServerSocket(8090);
+        System.out.println("TCP server has been ready.");
+        while (true) {
+            Socket socket = serverSocket.accept();
+            Runnable handler = new TimeHandler(socket);
+            executor.submit(handler);
 //			executor.shutdown();
-		}
-	}
+        }
+    }
 }
 
 class TimeHandler implements Runnable {
-	Socket socket;
+    Socket socket;
 
-	TimeHandler(Socket socket) {
-		this.socket = socket;
-	}
+    TimeHandler(Socket socket) {
+        this.socket = socket;
+    }
 
-	@Override
-	public void run() {
-		try (BufferedReader reader = new BufferedReader(
-				new InputStreamReader(socket.getInputStream(), StandardCharsets.UTF_8))) {
-			try (BufferedWriter writer = new BufferedWriter(
-					new OutputStreamWriter(socket.getOutputStream(), StandardCharsets.UTF_8))) {
-				String receiveMsg = reader.readLine();
-				System.out.println("接收到客户端的消息是：" + receiveMsg);
-				String sendMsg = "Hello Client";
-				writer.write(sendMsg + "\n");
-				writer.flush();
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			try {
-				socket.close();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
-	}
+    @Override
+    public void run() {
+        try (BufferedReader reader = new BufferedReader(
+                new InputStreamReader(socket.getInputStream(), StandardCharsets.UTF_8))) {
+            try (BufferedWriter writer = new BufferedWriter(
+                    new OutputStreamWriter(socket.getOutputStream(), StandardCharsets.UTF_8))) {
+                String receiveMsg = reader.readLine();
+                System.out.println("接收到客户端的消息是：" + receiveMsg);
+                String sendMsg = "Hello Client";
+                writer.write(sendMsg + "\n");
+                writer.flush();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                socket.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }

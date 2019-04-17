@@ -5,9 +5,11 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 /**
- * delete demo
- *
- * @author xMustang
+ * @Title: App3
+ * @Description: JDBC delete
+ * @Author: xMustang
+ * @Version: 1.0
+ * @create: 2019/4/17 9:49
  */
 public class App3 {
     public static void main(String[] args) throws SQLException {

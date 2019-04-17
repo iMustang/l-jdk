@@ -5,9 +5,11 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
- * 批处理
- *
- * @author xMustang
+ * @Title: App10
+ * @Description: Jdbc批处理
+ * @Author: xMustang
+ * @Version: 1.0
+ * @create: 2019/4/17 9:55
  */
 public class App10 {
     public static void main(String[] args) throws SQLException {

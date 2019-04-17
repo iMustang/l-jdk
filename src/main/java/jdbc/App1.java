@@ -7,10 +7,13 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
- * Statement简单连接数据库
+ * @Title: App1
+ * @Description: Statement简单连接数据库
+ * @Author: xMustang
+ * @Version: 1.0
+ * @create: 2019/4/17 9:47
  */
 public class App1 {
-
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         String URL = "jdbc:mysql://127.0.0.1:3306/test?serverTimezone=GMT";
         String USER = "root";
@@ -32,5 +35,4 @@ public class App1 {
         st.close();
         conn.close();
     }
-
 }

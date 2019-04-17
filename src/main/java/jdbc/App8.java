@@ -7,9 +7,11 @@ import java.sql.SQLException;
 import java.sql.Types;
 
 /**
- * 带out参数的存储过程，对应脚本为withoutparameter.sql
- *
- * @author xMustang
+ * @Title: App8
+ * @Description: Jdbc调用带out参数的存储过程，对应脚本为withoutparameter.sql
+ * @Author: xMustang
+ * @Version: 1.0
+ * @create: 2019/4/17 9:54
  */
 public class App8 {
     public static void main(String[] args) throws SQLException {

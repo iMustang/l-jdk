@@ -14,10 +14,8 @@ public class Transfer implements Runnable {
         this.bank = bank;
     }
 
-    @SuppressWarnings("AlibabaUndefineMagicConstant")
     @Override
     public void run() {
-        //noinspection AlibabaUndefineMagicConstant
         for (int i = 0; i < 10; i++) {
             bank.set();
             System.out.println(Thread.currentThread().getName() + " " + bank.get());

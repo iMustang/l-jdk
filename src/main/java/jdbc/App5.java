@@ -5,6 +5,13 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * @Title: App5
+ * @Description: Jdbc select
+ * @Author: xMustang
+ * @Version: 1.0
+ * @create: 2019/4/17 9:51
+ */
 public class App5 {
     public static void main(String[] args) throws SQLException {
         Connection conn = DbUtil.getConnection();

@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 
 /**
  * @Title: App3
- * @Description:专门测试正则限定符*、+、?
+ * @Description: 专门测试正则限定符*、+、?
  * @Author: xMustang
  * @Version: 1.0
  * @create: 2019/4/9 21:00
@@ -36,6 +36,6 @@ public class App3 {
         System.out.println("zo?检验zoo：" + Pattern.matches(pattern3, testStr33));
 
         boolean matches = Pattern.matches("\\B-\\B", "a-b");
-        System.out.println(matches+"fdsaf");
+        System.out.println(matches + "fdsaf");
     }
 }

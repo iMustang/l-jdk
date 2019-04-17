@@ -6,9 +6,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * 调用无参数存储过程，对应脚本noparameter.sql
- *
- * @author xMustang
+ * @Title: App6
+ * @Description: Jdbc调用无参数存储过程，对应脚本noparameter.sql
+ * @Author: xMustang
+ * @Version: 1.0
+ * @create: 2019/4/17 9:52
  */
 public class App6 {
     public static void main(String[] args) throws SQLException {
