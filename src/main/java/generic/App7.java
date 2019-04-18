@@ -47,7 +47,7 @@ class GenericDemo<T> {
 }
 
 /**
- * 泛型类统配符示例
+ * 泛型类通配符示例
  *
  * @param <T>
  */
