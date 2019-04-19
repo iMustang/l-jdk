@@ -1,4 +1,4 @@
-package gather.collection.set;
+package container.collection.set;
 
 import java.util.Comparator;
 import java.util.Iterator;

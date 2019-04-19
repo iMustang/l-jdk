@@ -1,4 +1,4 @@
-package gather.sort.demo;
+package container.sort.demo;
 
 import java.util.Vector;
 
