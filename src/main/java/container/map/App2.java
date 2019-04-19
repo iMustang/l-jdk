@@ -1,4 +1,4 @@
-package gather.map;
+package container.map;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

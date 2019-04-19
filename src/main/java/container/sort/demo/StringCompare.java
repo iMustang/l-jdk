@@ -1,4 +1,4 @@
-package gather.sort.demo;
+package container.sort.demo;
 
 /**
  * @Title: StringCompare

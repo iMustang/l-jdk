@@ -1,4 +1,4 @@
-package gather.collection.list;
+package container.collection.list;
 
 import java.util.LinkedList;
 
