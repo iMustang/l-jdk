@@ -1,3 +1,5 @@
+package basic.extend;
+
 /**
  * @Title: Son
  * @Description:
@@ -9,4 +11,5 @@ public class Son extends Father {
     public void b(){
         System.out.println("子类方法b");
     }
+
 }

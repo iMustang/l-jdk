@@ -22,7 +22,7 @@ public class GetRequest {
 
         // 输入流读取请求返回的响应
         try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(connection.getInputStream(), StandardCharsets.UTF_8));) {
+                new InputStreamReader(connection.getInputStream(), StandardCharsets.UTF_8))) {
             String readLine = null;
             StringBuilder sb = new StringBuilder();
 

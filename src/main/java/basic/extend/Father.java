@@ -1,6 +1,8 @@
+package basic.extend;
+
 /**
  * @Title: Father
- * @Description:
+ * @Description: 继承时父类private特性
  * @Author: xMustang
  * @Version: 1.0
  * @create: 2019/4/26 14:11
