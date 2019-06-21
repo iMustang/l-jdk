@@ -3,7 +3,7 @@ package container.collection.list;
 import java.util.LinkedList;
 
 /**
- * @Title: App2
+ * @Title: LinkedHashMapDemo
  * @Description: 使用LinkedList模拟栈
  * @Author: xMustang
  * @Version: 1.0

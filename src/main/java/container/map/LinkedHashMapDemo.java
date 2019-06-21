@@ -3,14 +3,7 @@ package container.map;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * @Title: App2
- * @Description: LinkedHashMap示例
- * @Author: xMustang
- * @Version: 1.0
- * @create: 2019/4/18 10:57
- */
-public class App2 {
+public class LinkedHashMapDemo {
     public static void main(String[] args) {
         LinkedHashMap<String, String> linkedHashMap = new LinkedHashMap<>();
         linkedHashMap.put("name", "张三");

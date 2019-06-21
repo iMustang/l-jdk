@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 /**
- * @Title: App2
+ * @Title: LinkedHashMapDemo
  * @Description: 使用DbUtil测试
  * @Author: xMustang
  * @Version: 1.0

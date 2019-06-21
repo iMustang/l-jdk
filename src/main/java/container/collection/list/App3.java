@@ -3,7 +3,7 @@ package container.collection.list;
 import java.util.LinkedList;
 
 /**
- * @Title: App3
+ * @Title: TreeMapDemo
  * @Description: 使用LinkedList实现队列
  * @Author: xMustang
  * @Version: 1.0

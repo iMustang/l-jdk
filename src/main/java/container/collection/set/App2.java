@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 
 /**
- * @Title: App2
+ * @Title: LinkedHashMapDemo
  * @Description: LinkedHashSet示例
  * @Author: xMustang
  * @Version: 1.0
