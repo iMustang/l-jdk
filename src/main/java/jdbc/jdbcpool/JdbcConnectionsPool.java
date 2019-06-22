@@ -23,7 +23,7 @@ import javax.sql.DataSource;
  * @Version: 1.0
  * @create: 2019/4/17 9:32
  */
-public class JdbcConnectionsPool implements DataSource{
+public class JdbcConnectionsPool implements DataSource {
     // 创建linkedlist集合
     private static LinkedList<Connection> connPool = new LinkedList<Connection>();
     private static String driver;
@@ -34,6 +34,7 @@ public class JdbcConnectionsPool implements DataSource{
     private static int jdbcConnectionInitSize;
     // 当前最大连接数量=max*jdbcConnectionInitSize
     private static int max = 1;
+
     // 使用静态块代码，初始化连接池，创建最小连接数量连接， 放入LinkedList集合中
     static {
         InputStream is = JdbcConnectionsPool.class.getResourceAsStream("/db.properties");
@@ -66,6 +67,7 @@ public class JdbcConnectionsPool implements DataSource{
 
     /**
      * 实现数据库连接的获取和新创建
+     *
      * @return 数据库连接
      * @throws SQLException
      */
@@ -87,7 +89,7 @@ public class JdbcConnectionsPool implements DataSource{
         }
         if (connPool.size() > 0) {
             // 从LinkedList集合中取出一个数据库链接对象Connection使用
-            Connection conn = connPool.removeFirst();
+            final Connection conn = connPool.removeFirst();
             System.out.println("LinkedList数据库连接池大小是" + connPool.size());
             // 返回一个Connection对象，并设置Connection对象方法调用的限制，
             // 当调用connection类对象的close()方法时，会将Connection对象重新收集放入LinkedList集合中。
