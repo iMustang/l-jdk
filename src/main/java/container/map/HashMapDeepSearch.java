@@ -73,11 +73,11 @@ public class HashMapDeepSearch {
          *     modCount++;
          *     addEntry(hash, key, value, i); // 如果key不存在，就添加新Entry
          *                                    // addEntry(int hash, K key, V value, int bucketIndex) {
-         * 	                                  //    if ((size >= threshold) && (null != table[bucketIndex])) {
-         * 	                                  //        resize(2 * table.length);   // size（map中存储的key的个数）
-         *                                                                          // threshold，每次新建或resize时，threshold = capacity * loadFactor
-         *                                                                          // size超过threshold时，resize(2 * table.length)，重新计算各个Entry的哈希值
-         * 	                                  //        hash = (null != key) ? hash(key) : 0;
+         *                                    //    if ((size >= threshold) && (null != table[bucketIndex])) {
+         *                                    //        resize(2 * table.length); // size（map中存储的key的个数）
+         *                                                                        // threshold，每次新建或resize时，threshold = capacity * loadFactor
+         *                                                                        // size超过threshold时，resize(2 * table.length)，重新计算各个Entry的哈希值
+         *                                    //        hash = (null != key) ? hash(key) : 0;
          * 	                                  //        bucketIndex = indexFor(hash, table.length);
          *                                    //    }
          * 	                                  //    createEntry(hash, key, value, bucketIndex);
