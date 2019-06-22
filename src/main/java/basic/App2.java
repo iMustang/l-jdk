@@ -3,7 +3,7 @@ package basic;
 
 
 /**
- * @Title: App2
+ * @Title: LinkedHashMapDemo
  * @Description: 初始化顺序
  * @Author: xMustang
  * @Version: 1.0

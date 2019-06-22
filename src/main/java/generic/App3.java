@@ -1,7 +1,7 @@
 package generic;
 
 /**
- * @Title: App3
+ * @Title: TreeMapDemo
  * @Description: 泛型接口
  * @Author: xMustang
  * @Version: 1.0

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @Title: App2
+ * @Title: LinkedHashMapDemo
  * @Description: Arrays工具类的示例
  * @Author: xMustang
  * @Version: 1.0

@@ -1,7 +1,7 @@
 package multithread.threadlocal;
 
 /**
- * @Title: App1
+ * @Title: HashMapTraverse
  * @Description: 学习ThreadLocal的用法
  * @Author: xMustang
  * @Version: 1.0

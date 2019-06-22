@@ -3,7 +3,7 @@ package generic;
 import java.util.ArrayList;
 
 /**
- * @Title: App1
+ * @Title: HashMapTraverse
  * @Description: 泛型擦除
  * @Author: xMustang
  * @Version: 1.0

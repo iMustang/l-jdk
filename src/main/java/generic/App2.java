@@ -1,7 +1,7 @@
 package generic;
 
 /**
- * @Title: App2
+ * @Title: LinkedHashMapDemo
  * @Description: 泛型类
  * @Author: xMustang
  * @Version: 1.0

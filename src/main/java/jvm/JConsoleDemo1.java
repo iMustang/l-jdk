@@ -3,7 +3,7 @@ package jvm;
 import java.util.ArrayList;
 
 /**
- * @Title: App1
+ * @Title: HashMapTraverse
  * @Description: 提供JConsole观察内存监控使用，以64K/50ms的速度向Java堆中填充数据
  * @Author: xMustang
  * @Version: 1.0

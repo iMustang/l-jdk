@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
- * @Title: App1
+ * @Title: HashMapTraverse
  * @Description: Statement简单连接数据库
  * @Author: xMustang
  * @Version: 1.0

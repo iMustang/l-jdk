@@ -4,13 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Title: App1
- * @Description: HashMap示例
- * @Author: xMustang
- * @Version: 1.0
- * @create: 2019/4/18 10:25
+ * HashMap遍历
  */
-public class App1 {
+public class HashMapTraverse {
     public static void main(String[] args) {
         HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("name", "张三");

@@ -1,7 +1,7 @@
 package basic;
 
 /**
- * @Title: App1
+ * @Title: HashMapTraverse
  * @Description: 字符串内存分配
  * @Author: xMustang
  * @Version: 1.0

@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Collections;
 
 /**
- * @Title: App1
+ * @Title: HashMapTraverse
  * @Description: Collections工具类的示例
  * @Author: xMustang
  * @Version: 1.0

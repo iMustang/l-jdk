@@ -3,14 +3,7 @@ package container.map;
 import java.util.Map;
 import java.util.TreeMap;
 
-/**
- * @Title: App3
- * @Description: TreeMap示例
- * @Author: xMustang
- * @Version: 1.0
- * @create: 2019/4/18 11:05
- */
-public class App3 {
+public class TreeMapDemo {
     public static void main(String[] args) {
         TreeMap<Integer, String> treeMap = new TreeMap<>();
         treeMap.put(1, "张三");
