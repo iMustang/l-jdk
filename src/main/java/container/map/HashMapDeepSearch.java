@@ -11,7 +11,13 @@ public class HashMapDeepSearch {
     static int hashSeed = 0;
 
     public static void main(String[] args) {
+		/**
+		 * 数据结构中的散列表，在Java中实现就是HashMap
+		 * SHA函数可用作散列函数
+		 */
+
 //        HashMap<String, String> map = new HashMap<>(-1);
+
         /**
          * 不指定参数，创建HashMap时，
          * DEFAULT_INITIAL_CAPACITY = 1 << 4; // aka 16
@@ -100,7 +106,13 @@ public class HashMapDeepSearch {
          * }
          */
 
-        map.get("capital"); // public V get(Object key) {
+		/**
+		 * loadFactor（装填因子） = 散列表包含的元素数 / 散列表位置总数
+		 * 装填因子大于1，表示位置总数小于要填充的元素总数。
+		 * 经验规则：装填因子>0.7，调整散列表的长度
+		 */
+
+		map.get("capital"); // public V get(Object key) {
         //      if (key == null)
         //          return getForNullKey();
         //      Entry<K,V> entry = getEntry(key);  // table中的每个元素都是一个Entry链，getEntry中遍历Entry链，寻找key
