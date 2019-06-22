@@ -78,9 +78,9 @@ public class HashMapDeepSearch {
          *                                                                        // threshold，每次新建或resize时，threshold = capacity * loadFactor
          *                                                                        // size超过threshold时，resize(2 * table.length)，重新计算各个Entry的哈希值
          *                                    //        hash = (null != key) ? hash(key) : 0;
-         * 	                                  //        bucketIndex = indexFor(hash, table.length);
+         *                                    //        bucketIndex = indexFor(hash, table.length);
          *                                    //    }
-         * 	                                  //    createEntry(hash, key, value, bucketIndex);
+         *                                    //    createEntry(hash, key, value, bucketIndex);
          *                                    // }
          *
          *
