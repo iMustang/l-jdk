@@ -106,6 +106,26 @@ public class HashMapDeepSearch {
          * }
          */
 
+        /**
+         * 扩容时的头插法：
+         *
+         * void transfer(Entry[] newTable, boolean rehash) {
+         *      int newCapacity = newTable.length;
+         *      for (Entry<K,V> e : table) {
+         *          while(null != e) {
+         *              Entry<K,V> next = e.next;
+         *              if (rehash) {
+         *                  e.hash = null == e.key ? 0 : hash(e.key);
+         *              }
+         *              int i = indexFor(e.hash, newCapacity);
+         *              e.next = newTable[i];    // 扩容时的头插法发生在这里，新节点要插入的位置，将该位置原来的Entry变成新插入的Entry的next
+         *              newTable[i] = e;         // 再将新节点放入table中指定的位置处。
+         *              e = next;
+         *          }
+         *       }
+         * }
+         */
+
 		/**
 		 * loadFactor（装填因子） = 散列表包含的元素数 / 散列表位置总数
 		 * 装填因子大于1，表示位置总数小于要填充的元素总数。
