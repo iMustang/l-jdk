@@ -12,9 +12,6 @@ import java.nio.charset.StandardCharsets;
 /**
  * @Title: TCPClient
  * @Description: TCP Socket编程示例——客户端
- * @Author: xMustang
- * @Version: 1.0
- * @create: 2019/4/17 10:00
  */
 public class TCPClient {
     public static void main(String[] args) throws IOException {

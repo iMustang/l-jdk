@@ -11,9 +11,6 @@ import java.nio.charset.StandardCharsets;
 /**
  * @Title: TCPServer
  * @Description: TCP Socket编程示例——服务端
- * @Author: xMustang
- * @Version: 1.0
- * @create: 2019/4/17 10:01
  */
 public class TCPServer {
     public static void main(String[] args) throws Exception {
