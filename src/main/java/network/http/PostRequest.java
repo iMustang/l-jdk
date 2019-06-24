@@ -11,9 +11,6 @@ import java.net.URL;
 /**
  * @Title: PostRequest
  * @Description: Http POST 请求示例
- * @Author: xMustang
- * @Version: 1.0
- * @create: 2019/4/17 9:59
  */
 public class PostRequest {
     public static void main(String[] args) throws IOException {

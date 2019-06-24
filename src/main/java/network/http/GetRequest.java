@@ -10,9 +10,6 @@ import java.nio.charset.StandardCharsets;
 /**
  * @Title: GetRequest
  * @Description: Http GET请求示例
- * @Author: xMustang
- * @Version: 1.0
- * @create: 2019/4/17 9:59
  */
 public class GetRequest {
     public static void main(String[] args) throws IOException {
