@@ -4,18 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Title: EventSource
- * @Description:
- * @Author: xMustang
- * @Version: 1.0
- * @create: 2019-06-26 22:54
+ * EventSource
  */
 public class EventSource<T> {
 
 	private final List<T> eventListeners;
 
-	public EventSource() {
-		eventListeners = new ArrayList<T>();
+	EventSource() {
+		eventListeners = new ArrayList<>();
 	}
 
 	public synchronized void registerListener(T eventListener) {
@@ -23,12 +19,12 @@ public class EventSource<T> {
 		this.notifyAll();
 	}
 
-	public synchronized List<T> retrieveListeners() throws InterruptedException {
-		List<T> dest = null;
+	synchronized List<T> retrieveListeners() throws InterruptedException {
+		List<T> dest;
 		if (eventListeners.size() <= 0) {
 			this.wait();
 		}
-		dest = new ArrayList<T>(eventListeners.size());
+		dest = new ArrayList<>(eventListeners.size());
 		dest.addAll(eventListeners);
 		return dest;
 	}

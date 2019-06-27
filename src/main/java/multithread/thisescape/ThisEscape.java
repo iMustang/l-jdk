@@ -1,17 +1,13 @@
 package multithread.thisescape;
 
 /**
- * @Title: ThisEscape
- * @Description:
- * @Author: xMustang
- * @Version: 1.0
- * @create: 2019-06-26 22:53
+ * ThisEscape
  */
-public class ThisEscape {
-	public final int id;
-	public final String name;
+class ThisEscape {
+	private final int id;
+	private final String name;
 
-	public ThisEscape(EventSource<EventListener> source) {
+	ThisEscape(EventSource<EventListener> source) throws InterruptedException {
 		id = 1;
 		source.registerListener(new EventListener() {
 			public void onEvent(Object obj) {
@@ -20,10 +16,7 @@ public class ThisEscape {
 			}
 		});
 		// 使用耗时操作，模拟线程正好在构造函数未完成之前发生线程切换
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-		}
+		Thread.sleep(1000);
 		name = "xmustang";
 	}
 }
