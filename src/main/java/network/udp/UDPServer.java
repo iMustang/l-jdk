@@ -18,7 +18,6 @@ public class UDPServer {
 			String receiveMsg = new String(data, StandardCharsets.UTF_8);
 			System.out.println("Packet received from: " + packet.getSocketAddress() + " : " + receiveMsg);
 
-			// ·¢ËÍÊý¾Ý:
 			String resp = "Hi Client, I receive you";
 			packet.setData(resp.getBytes(StandardCharsets.UTF_8));
 			socket.send(packet);

@@ -17,13 +17,13 @@ public class TCPServer {
         ServerSocket serverSocket = new ServerSocket(8090);
         System.out.println("TCP server has been ready.");
         Socket socket = serverSocket.accept();
-        // 包装读写字节流
         try (BufferedReader reader = new BufferedReader(
                 new InputStreamReader(socket.getInputStream(), StandardCharsets.UTF_8))) {
             try (BufferedWriter writer = new BufferedWriter(
                     new OutputStreamWriter(socket.getOutputStream(), StandardCharsets.UTF_8))) {
-                String receiveMsg = reader.readLine();
-                System.out.println("接收到客户端的消息是：" + receiveMsg);
+                String recMsg = reader.readLine();
+                System.out.println();
+                System.out.println("接收到客户端的消息是：" + recMsg);
                 String sendMsg = "Hello Client";
                 writer.write(sendMsg + "\n");
                 writer.flush();
