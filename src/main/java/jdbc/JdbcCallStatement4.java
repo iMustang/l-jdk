@@ -17,7 +17,7 @@ public class JdbcCallStatement4 {
 		String s = "call SP_select_caller4(?,?) ";
 		CallableStatement cst = (CallableStatement) conn.prepareCall(s);
 		cst.setString(2, "555");
-		cst.registerOutParameter(1, Types.VARCHAR);
+//		cst.registerOutParameter(1, Types.VARCHAR);
 		ResultSet rs = cst.executeQuery();
 		String id = cst.getString(1);
 		System.out.println("id:" + id);
