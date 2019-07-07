@@ -4,9 +4,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileWriter;
 
-/**
- * @Title: CloseStreamDemo
- */
 public class CloseStreamDemo {
 	/**
 	 * 关闭流时，只要关闭最上层的流即可，系统会自动关闭下层的流。

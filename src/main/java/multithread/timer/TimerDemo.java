@@ -3,10 +3,6 @@ package multithread.timer;
 import java.util.Timer;
 import java.util.TimerTask;
 
-/**
- * @title: TimerDemo
- * @description:
- */
 public class TimerDemo {
 	public static void main(String[] args) throws InterruptedException {
 		// 虽然只执行一次，但线程不会停止

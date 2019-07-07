@@ -8,9 +8,6 @@ import java.nio.charset.Charset;
 import java.util.Iterator;
 import java.util.Set;
 
-/**
- * @Title: SelectorDemo
- */
 public class SelectorDemo {
 	public static void main(String[] args) throws IOException {
 		ServerSocketChannel channel = ServerSocketChannel.open();

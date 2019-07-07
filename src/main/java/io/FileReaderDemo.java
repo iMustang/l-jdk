@@ -4,9 +4,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-/**
- * @Title: FileReaderDemo
- */
 public class FileReaderDemo {
 	public static void main(String[] args) throws IOException {
 		readTest2();

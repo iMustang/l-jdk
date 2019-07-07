@@ -6,9 +6,6 @@ import java.nio.ByteBuffer;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 
-/**
- * @Title: ServerSocketChannelDemo
- */
 public class ServerSocketChannelDemo {
 	public static void main(String[] args) throws IOException {
 		ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();

@@ -5,9 +5,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-/**
- * @Title: BufferedInputStreamDemo
- */
 public class BufferedInputStreamDemo {
 	public static void main(String[] args) throws IOException {
 		readTest();

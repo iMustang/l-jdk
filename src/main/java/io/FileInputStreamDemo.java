@@ -4,9 +4,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-/**
- * @Title: FileInputStreamDemo
- */
 public class FileInputStreamDemo {
 	public static void main(String[] args) throws IOException {
 		readTest2();

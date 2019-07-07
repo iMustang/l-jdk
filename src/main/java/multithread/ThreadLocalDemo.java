@@ -1,8 +1,7 @@
 package multithread;
 
 /**
- * ThreadLocalDemo
- * description: 学习使用TheadLocal
+ * 学习使用TheadLocal
  */
 public class ThreadLocalDemo extends Thread {
 	private static ThreadLocal<Integer> threadLocal = new ThreadLocal<Integer>() {

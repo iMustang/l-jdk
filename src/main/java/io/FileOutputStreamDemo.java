@@ -3,9 +3,6 @@ package io;
 import java.io.*;
 import java.util.Arrays;
 
-/**
- * @Title: FileOutputStreamDemo
- */
 public class FileOutputStreamDemo {
 	public static void main(String[] args) throws IOException {
 		writeTest2();

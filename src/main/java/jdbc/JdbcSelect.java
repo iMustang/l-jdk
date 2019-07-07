@@ -6,13 +6,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * @Title: ArraysAsListDemo
- * @Description: Jdbc select
- * @Author: xMustang
- * @Version: 1.0
- * @create: 2019/4/17 9:51
+ *  Jdbc select
  */
-public class App5 {
+public class JdbcSelect {
     public static void main(String[] args) throws SQLException {
         Connection conn = DbUtil.getConnection();
         String s = "select id from dev where id=?";

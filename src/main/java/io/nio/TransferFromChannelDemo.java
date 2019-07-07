@@ -8,7 +8,6 @@ import java.net.URL;
 import java.nio.channels.FileChannel;
 
 /**
- * @Title: TransferFromChannelDemo
  * FileChannel的transferFrom()
  */
 public class TransferFromChannelDemo {

@@ -2,13 +2,6 @@ package io;
 
 import java.io.*;
 
-/**
- * @Title: RandomAccessFileDemo
- * @Description:
- * @Author: xMustang
- * @Version: 1.0
- * @create: 2019-06-23 21:31
- */
 public class RandomAccessFileDemo {
 	public static void main(String[] args) {
 		// 向文件追加内容，追加内容放在原文件末尾

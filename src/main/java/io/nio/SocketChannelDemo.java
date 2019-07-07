@@ -5,9 +5,6 @@ import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
 
-/**
- * @Title: SocketChannelDemo
- */
 public class SocketChannelDemo {
 	public static void main(String[] args) throws IOException {
 		SocketChannel socketChannel = SocketChannel.open();
