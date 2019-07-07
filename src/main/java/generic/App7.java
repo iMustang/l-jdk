@@ -1,7 +1,7 @@
 package generic;
 
 /**
- * @Title: App7
+ * @Title: ToArrayDemo
  * @Description: 泛型通配符
  * @Author: xMustang
  * @Version: 1.0

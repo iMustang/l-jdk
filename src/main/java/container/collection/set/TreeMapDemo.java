@@ -10,7 +10,7 @@ import java.util.TreeSet;
  * @Version: 1.0
  * @create: 2019/4/18 1:13
  */
-public class App3 {
+public class TreeMapDemo {
     public static void main(String[] args) {
         TreeSet<Integer> treeSet = new TreeSet<>();
         treeSet.add(8);

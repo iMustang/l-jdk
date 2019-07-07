@@ -1,7 +1,7 @@
 package generic;
 
 /**
- * @Title: App6
+ * @Title: ArrayListSubListDemo
  * @Description: 泛型方法与可变参数
  * @Author: xMustang
  * @Version: 1.0

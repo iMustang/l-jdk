@@ -1,16 +1,9 @@
 package basic.constructor;
 
-/**
- * @Title: Father
- * @Description:
- * @Author: xMustang
- * @Version: 1.0
- * @create: 2019/4/25 22:28
- */
-public class Father {
+class Father {
     private int i = initI();
 
-    public Father() {
+    Father() {
         System.out.println("父类构造器执行");
         i = 3;
     }
@@ -20,7 +13,7 @@ public class Father {
         i = 2;
     }
 
-    public int initI() {
+    private int initI() {
         System.out.println("父类成员变量定义时赋值");
         return 1;
     }

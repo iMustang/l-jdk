@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * @Title: App5
+ * @Title: ArraysAsListDemo
  * @Description: Jdbc select
  * @Author: xMustang
  * @Version: 1.0

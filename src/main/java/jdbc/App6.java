@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * @Title: App6
+ * @Title: ArrayListSubListDemo
  * @Description: Jdbc调用无参数存储过程，对应脚本noparameter.sql
  * @Author: xMustang
  * @Version: 1.0

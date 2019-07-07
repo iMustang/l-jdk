@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * @Title: App7
+ * @Title: ToArrayDemo
  * @Description: Jdbc调用带参数存储过程，对应withinparameter.sql
  * @Version: 1.0
  * @create: 2019/4/17 9:52

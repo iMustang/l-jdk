@@ -1,7 +1,7 @@
 package generic;
 
 /**
- * @Title: App5
+ * @Title: ArraysAsListDemo
  * @Description: 泛型方法二
  * @Author: xMustang
  * @Version: 1.0

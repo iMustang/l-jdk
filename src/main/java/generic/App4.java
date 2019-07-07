@@ -1,7 +1,7 @@
 package generic;
 
 /**
- * @Title: App4
+ * @Title: TreeSetDemo2
  * @Description: 泛型方法
  * @Author: xMustang
  * @Version: 1.0

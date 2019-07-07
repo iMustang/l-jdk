@@ -9,13 +9,6 @@ import java.io.IOException;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
-/**
- * @Title: cd
- * @Description:
- * @Author: xMustang
- * @Version: 1.0
- * @create: 2019/5/11 20:05
- */
 public class Main {
     public static void main(String[] args) throws IOException {
         // 需要代理的真实对象
