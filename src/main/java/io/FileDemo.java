@@ -6,10 +6,6 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * @Title: FileDemo
- * @Description:File类的使用学习
- */
 public class FileDemo {
 	public static void main(String[] args) throws IOException {
 		/**

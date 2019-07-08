@@ -156,11 +156,11 @@ public class HashMapDeepSearch {
 
         // 计算哈希值的方法
         String book = "book";
-        int hash = hashInJDK7(book);
-        System.out.println(hash);
-        System.out.println(Integer.toBinaryString(hash));
+//        int hash = hashInJDK7(book);
+//        System.out.println(hash);
+//        System.out.println(Integer.toBinaryString(hash));
 
-        hash = hashInJDK8(book);
+        int hash = hashInJDK8(book);
         System.out.println(hash);
         System.out.println(Integer.toBinaryString(hash));
     }
@@ -185,7 +185,7 @@ public class HashMapDeepSearch {
     }
 
     // JDK7中HashMap计算hash值
-    static final int hashInJDK7(Object k) {
+    /*static final int hashInJDK7(Object k) {
         int h = hashSeed;
         if (0 != h && k instanceof String) {
             return sun.misc.Hashing.stringHash32((String) k);
@@ -198,7 +198,7 @@ public class HashMapDeepSearch {
         // number of collisions (approximately 8 at default load factor).
         h ^= (h >>> 20) ^ (h >>> 12);
         return h ^ (h >>> 7) ^ (h >>> 4);
-    }
+    }*/
 
     // JDK8中HashMap计算hash值
     static final int hashInJDK8(Object key) {

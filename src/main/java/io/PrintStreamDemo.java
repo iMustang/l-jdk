@@ -5,9 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 
-/**
- * @Title: PrintStreamDemo
- */
 public class PrintStreamDemo {
 	public static void main(String[] args) throws FileNotFoundException {
 		File file = new File("ProgramIOFile/io.txt");

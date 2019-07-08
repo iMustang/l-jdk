@@ -6,9 +6,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
 
-/**
- * @Title: BufferedReaderDemo
- */
 public class BufferedReaderDemo {
 	public static void main(String[] args) throws IOException {
 		readTest1();
@@ -22,7 +19,7 @@ public class BufferedReaderDemo {
 	}
 
 	// 自实现readLine方法。
-	public static String myReadLine(FileReader fileReader) throws IOException {
+	private static String myReadLine(FileReader fileReader) throws IOException {
 		StringBuilder sb = new StringBuilder();
 		int content;
 		while ((content = fileReader.read()) != -1) {

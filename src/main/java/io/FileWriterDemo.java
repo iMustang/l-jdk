@@ -4,9 +4,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-/**
- * @Title: FileWriterDemo
- */
 public class FileWriterDemo {
 	public static void main(String[] args) throws IOException {
 		writeTest();

@@ -4,9 +4,6 @@ import java.io.*;
 import java.util.Enumeration;
 import java.util.Vector;
 
-/**
- * @Title: SequenceInputStreamDemo
- */
 public class SequenceInputStreamDemo {
 	public static void main(String[] args) throws IOException {
 		mergeFiles();

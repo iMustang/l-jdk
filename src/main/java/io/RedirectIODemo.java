@@ -3,9 +3,6 @@ package io;
 import java.io.*;
 import java.util.Scanner;
 
-/**
- * @Title: RedirectIODemo
- */
 public class RedirectIODemo {
 	public static void main(String[] args) throws FileNotFoundException {
 		Scanner scanner;

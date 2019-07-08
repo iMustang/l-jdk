@@ -5,9 +5,6 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/**
- * @Title: BufferedOutputStreamDemo
- */
 public class BufferedOutputStreamDemo {
 	public static void main(String[] args) throws IOException {
 		File file = new File("F:/temp.txt");

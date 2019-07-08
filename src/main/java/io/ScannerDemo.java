@@ -6,10 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Scanner;
 
-/**
- * @title: ScannerDemo
- * @description:
- */
 public class ScannerDemo {
 	public static void main(String[] args) throws FileNotFoundException {
 //		demo1();

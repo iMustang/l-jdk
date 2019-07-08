@@ -3,9 +3,6 @@ package io.nio;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-/**
- * @Title: PathDemo
- */
 public class PathDemo {
 	public static void main(String[] args) {
 		String originalPath =
