@@ -21,7 +21,6 @@ public class FileChannelDemo {
 	 */
 	public static void main(String[] args) throws IOException, URISyntaxException {
 		URL resource = FileChannelDemo.class.getResource("/nio-data.txt");
-		FileChannelDemo.class.getResourceAsStream("");
 		RandomAccessFile file = new RandomAccessFile(new File(resource.toURI()), "rw");
 		FileChannel inChannel = file.getChannel();
 		ByteBuffer buf = ByteBuffer.allocate(48);
@@ -39,6 +38,5 @@ public class FileChannelDemo {
 		}
 		inChannel.close();
 		file.close();
-
 	}
 }
