@@ -1,4 +1,4 @@
-package multithread;
+package multithread.threadlocal;
 
 /**
  * 学习使用TheadLocal
