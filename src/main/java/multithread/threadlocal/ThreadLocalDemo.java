@@ -12,7 +12,7 @@ public class ThreadLocalDemo extends Thread {
 
 	@Override
 	public void run() {
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < 3; i++) {
 			Integer integer = threadLocal.get();
 			System.out.println(Thread.currentThread().getName() + " : " + integer);
 			threadLocal.set(integer + 1);
