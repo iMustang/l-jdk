@@ -1,9 +1,7 @@
-package multithread.c02threadsynchronization.synchronizedlock;
+package multithread.c07lockobject.s01reetrantlock;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import java.util.concurrent.locks.ReentrantLock;
 

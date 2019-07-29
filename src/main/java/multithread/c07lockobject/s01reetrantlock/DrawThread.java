@@ -1,4 +1,4 @@
-package multithread.c02threadsynchronization.synchronizedlock;
+package multithread.c07lockobject.s01reetrantlock;
 
 /**
  * DrawThread

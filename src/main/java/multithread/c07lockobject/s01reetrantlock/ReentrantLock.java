@@ -1,10 +1,10 @@
-package multithread.c02threadsynchronization.synchronizedlock;
+package multithread.c07lockobject.s01reetrantlock;
 
 /**
  * SynchronizedLockDemo
  * description: 同步锁示例
  */
-public class SynchronizedLockDemo {
+public class ReentrantLock {
 	public static void main(String[] args) {
 		// 创建一个账户
 		Account acct = new Account("1234567", 1000);
