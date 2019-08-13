@@ -18,7 +18,7 @@ public class RegularDemo1 {
 		while (matcher.find()) {
 			System.out.print("start pos:" + matcher.start());
 			System.out.print(" end pos:" + matcher.end());
-			System.out.print(" word:" + matcher.group());
+			System.out.print(" word: " + matcher.group());
 			System.out.println("");
 		}
 	}
