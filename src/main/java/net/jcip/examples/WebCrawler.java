@@ -17,7 +17,7 @@ import static java.util.concurrent.TimeUnit.MILLISECONDS;
  */
 public abstract class WebCrawler {
     private volatile TrackingExecutor exec;
-    private final Set<URL> urlsToCrawl = new HashSet<URL>();
+    private final Set<URL> urlsToCrawl = new HashSet<>();
 
     private final ConcurrentMap<URL, Boolean> seen = new ConcurrentHashMap<>();
     private static final long TIMEOUT = 500;
