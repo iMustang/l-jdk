@@ -18,7 +18,6 @@ public class TestClassLoader {
         // 启动类加载器，加载\lib下的类库，java的核心类库
         System.out.println(classLoader.getParent().getParent());
 
-
         System.out.println("boot:"+System.getProperty("sun.boot.class.path"));
         System.out.println("ext:"+System.getProperty("sun.ext.dirs"));
         System.out.println("app:"+System.getProperty("java.class.path"));
