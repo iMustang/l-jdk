@@ -11,9 +11,11 @@ public class SerialMain {
 	public static void main(String[] args) throws IOException {
 		Person person = new Person(1234, "wang", "男", "山东济南");
 		System.out.println("Person Serial" + person);
+
 		FileOutputStream fos = new FileOutputStream("Person.txt");
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
 		oos.writeObject(person);
+
 		oos.flush();
 		oos.close();
 	}

@@ -14,6 +14,7 @@ public class DeserialMain {
 		ObjectInputStream ois = new ObjectInputStream(fis);
 		person = (Person) ois.readObject();
 		ois.close();
+
 		System.out.println("Person Deserial" + person);
 	}
 }
