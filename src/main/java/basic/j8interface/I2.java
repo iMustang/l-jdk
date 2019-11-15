@@ -5,7 +5,7 @@ package basic.j8interface;
  * description:
  */
 public interface I2 {
-    default void say(){
-        System.out.println("I2 默认方法");
-    }
+//    default void say(){
+//        System.out.println("I2 默认方法");
+//    }
 }

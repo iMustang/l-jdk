@@ -25,7 +25,7 @@ public class CloseStreamDemo {
 			}
 		}
 
-		// Java7 try resource
+		// Java7 trycatch resource
 		File f = new File("ProgramIOFile/io.txt");
 		try (FileWriter writer = new FileWriter(f)) {
 			writer.write("今天天气很好");
