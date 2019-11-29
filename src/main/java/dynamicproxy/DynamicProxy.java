@@ -12,6 +12,7 @@ public class DynamicProxy implements InvocationHandler {
 	}
 
 	@Override
+	// 其中proxy在动态代理生成的代理类字节码中看到是this，也即是代理对象的实例
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		before();
 		return method.invoke(subject, args);
