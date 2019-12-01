@@ -1,4 +1,4 @@
-package dynamicproxy;
+package proxy.dynamicproxy;
 
 public interface Subject {
 	void rent();

@@ -1,4 +1,4 @@
-package dynamicproxy;
+package proxy.dynamicproxy;
 
 import sun.misc.ProxyGenerator;
 
@@ -6,7 +6,6 @@ import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
 public class Main {

@@ -1,4 +1,4 @@
-package dynamicproxy;
+package proxy.dynamicproxy;
 
 /**
  * 需要代理的真实对象
