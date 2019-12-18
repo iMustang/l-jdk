@@ -1,7 +1,5 @@
 package container.map;
 
-import com.sun.xml.internal.xsom.XSUnionSimpleType;
-
 import java.util.HashMap;
 
 /**

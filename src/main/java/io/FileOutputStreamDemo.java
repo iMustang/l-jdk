@@ -2,6 +2,8 @@ package io;
 
 import java.io.*;
 import java.util.Arrays;
+import java.util.Enumeration;
+import java.util.Properties;
 
 public class FileOutputStreamDemo {
 	public static void main(String[] args) throws IOException {
