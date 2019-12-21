@@ -5,8 +5,8 @@ import java.util.HashMap;
 /**
  * HashMapDemo
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class HashMapDemo {
     public static void main(String[] args) {

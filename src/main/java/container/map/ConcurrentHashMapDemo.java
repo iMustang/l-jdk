@@ -7,8 +7,8 @@ import java.util.concurrent.ConcurrentHashMap;
  * <p>
  * ConcurrentHashMap的Key、Value不能为null
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class ConcurrentHashMapDemo {
 	public static void main(String[] args) {

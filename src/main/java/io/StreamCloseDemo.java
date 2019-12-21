@@ -6,8 +6,8 @@ import java.io.IOException;
 /**
  * StreamCloseDemo
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class StreamCloseDemo {
     public static void main(String[] args) {

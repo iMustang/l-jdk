@@ -8,8 +8,8 @@ import java.util.Set;
 /**
  * HashMapDemo2
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class HashMapDemo2 {
     public static void main(String[] args) {

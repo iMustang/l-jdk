@@ -9,8 +9,8 @@ import java.util.List;
 /**
  * PhantomReferenceTest
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class PhantomReferenceTest {
     private static final List<Object> TEST_DATA = new LinkedList<>();

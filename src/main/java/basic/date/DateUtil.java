@@ -8,8 +8,8 @@ import java.util.Locale;
 /**
  * DateUtil
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class DateUtil {
 	private static ThreadLocal<SimpleDateFormat> local = new ThreadLocal<>();

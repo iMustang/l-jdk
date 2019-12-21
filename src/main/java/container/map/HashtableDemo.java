@@ -5,8 +5,8 @@ import java.util.Hashtable;
 /**
  * HashtableDemo
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class HashtableDemo {
     public static void main(String[] args) {

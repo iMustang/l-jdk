@@ -10,8 +10,8 @@ import java.lang.reflect.Method;
  * <p>
  * 反射样例
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class ReflectDemo {
     static class Person implements Cloneable {

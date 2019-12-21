@@ -5,8 +5,8 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * ConcurrentHashDemo
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class ConcurrentHashDemo {
     public static void main(String[] args) {

@@ -8,8 +8,8 @@ import java.util.Map;
 /**
  * 测试Reference、ReferenceQueue
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class RefTest {
     private static ReferenceQueue<byte[]> rq = new ReferenceQueue<byte[]>();

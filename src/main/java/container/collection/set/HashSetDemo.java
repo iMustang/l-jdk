@@ -7,8 +7,8 @@ import java.util.Iterator;
 /**
  * HashSetDemo
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class HashSetDemo {
     public static void main(String[] args) {

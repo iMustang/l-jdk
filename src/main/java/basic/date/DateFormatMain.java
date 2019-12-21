@@ -8,8 +8,8 @@ import java.util.Locale;
  * <p>
  * SimpleDateFormat线程不安全
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class DateFormatMain {
 	private static SimpleDateFormat sdf = new SimpleDateFormat("dd-MMM-yyyy", Locale.US);

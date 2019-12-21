@@ -4,8 +4,8 @@ package basic.packing;
  * Main
  * 包装类型在[-128,127]之间使用缓存
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class Main {
     public static void main(String[] args) {

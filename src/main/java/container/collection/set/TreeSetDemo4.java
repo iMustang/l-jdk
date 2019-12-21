@@ -9,8 +9,8 @@ import java.util.TreeSet;
 /**
  * TreeSetDemo4
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class TreeSetDemo4 {
 	public static void main(String[] args) {

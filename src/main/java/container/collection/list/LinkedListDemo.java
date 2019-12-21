@@ -5,8 +5,8 @@ import java.util.LinkedList;
 /**
  * LinkedListDemo
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class LinkedListDemo {
     public static void main(String[] args) {

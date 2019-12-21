@@ -6,7 +6,7 @@ import java.util.TreeSet;
 /**
  * @Title: TreeMapDemo
  * @Description: TreeSet示例
- * @Author: xMustang
+ * @author xMustang
  * @Version: 1.0
  * @create: 2019/4/18 1:13
  */

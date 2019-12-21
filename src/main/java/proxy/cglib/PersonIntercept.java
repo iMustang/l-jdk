@@ -8,8 +8,8 @@ import java.lang.reflect.Method;
 /**
  * PersonIntercept
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class PersonIntercept implements MethodInterceptor {
     @Override

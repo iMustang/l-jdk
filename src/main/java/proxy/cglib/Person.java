@@ -3,8 +3,8 @@ package proxy.cglib;
 /**
  * Person
  *
- * @author: xMustang
- * @since: 1.0
+ * @author xMustang
+ * @since 1.0
  */
 public class Person {
     public void speak(){
