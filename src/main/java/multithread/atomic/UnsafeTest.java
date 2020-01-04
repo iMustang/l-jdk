@@ -1,4 +1,4 @@
-package multithread.atomatic;
+package multithread.atomic;
 
 import sun.misc.Unsafe;
 
