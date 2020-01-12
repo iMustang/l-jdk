@@ -16,15 +16,12 @@ public class CallableFutureForMultiThread {
 			System.out.println(Thread.currentThread().getName() + "打印当前时间：" + new SimpleDateFormat("HH-mm-ss").format(new Date(System.currentTimeMillis())));
 		}
 
-		FutureTask<Integer> fTask = new FutureTask<>(new Callable<Integer>() {
-			@Override
-			public Integer call() {
-				for (int i = 0; i < 200; i++) {
-					System.out.println(Thread.currentThread().getName() + "正在打印第" + (i + 1) + "个字符");
-				}
-				// call()方法有返回值
-				return 0;
+		FutureTask<Integer> fTask = new FutureTask<>(() -> {
+			for (int i = 0; i < 200; i++) {
+				System.out.println(Thread.currentThread().getName() + "正在打印第" + (i + 1) + "个字符");
 			}
+			// call()方法有返回值
+			return 0;
 		});
 		new Thread(fTask, "有返回值的打印线程").start();
 
