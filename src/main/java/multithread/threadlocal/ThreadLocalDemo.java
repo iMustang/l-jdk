@@ -4,11 +4,7 @@ package multithread.threadlocal;
  * 学习使用TheadLocal
  */
 public class ThreadLocalDemo extends Thread {
-	private static ThreadLocal<Integer> threadLocal = new ThreadLocal<Integer>() {
-		protected Integer initialValue() {
-			return 1;
-		}
-	};
+	private static ThreadLocal<Integer> threadLocal = ThreadLocal.withInitial(() -> 1);
 
 	@Override
 	public void run() {
