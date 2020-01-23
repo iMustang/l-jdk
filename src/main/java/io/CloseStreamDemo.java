@@ -10,15 +10,20 @@ public class CloseStreamDemo {
 	 */
 	public static void main(String[] args) {
 		File file = new File("ProgramIOFile/io.txt");
-		FileInputStream fileInputStream = null;
+		FileInputStream fis = null;
 		try {
-			fileInputStream = new FileInputStream(file);
+			fis = new FileInputStream(file);
+			byte[] buffer = new byte[1024];
+			int length;
+			while ((length = fis.read(buffer)) != -1) {
+				System.out.println(new String(buffer, 0, length));
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
-			if (fileInputStream != null) {
+			if (fis != null) {
 				try {
-					fileInputStream.close();
+					fis.close();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
